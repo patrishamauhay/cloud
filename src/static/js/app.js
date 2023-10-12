@@ -53,7 +53,7 @@ function TodoListCard() {
         <React.Fragment>
             <AddItemForm onNewItem={onNewItem} />
             {items.length === 0 && (
-                <p className="text-center">You have no todo items yet! Add one above!</p>
+                <p className="text-center">No reviews yet!</p>
 		  
             )}
             {items.map(item => (
@@ -97,7 +97,7 @@ function AddItemForm({ onNewItem }) {
                     value={newItem}
                     onChange={e => setNewItem(e.target.value)}
                     type="text"
-                    placeholder="New Item"
+                    placeholder="Add a review!"
                     aria-describedby="basic-addon1"
                 />
                 <InputGroup.Append>
