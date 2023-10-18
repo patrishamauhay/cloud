@@ -1,11 +1,11 @@
 body {
-    background-color: #f4f4f4;
+    background-color:purple;
     margin-top: 50px;
     font-family: 'Lato';
 }
 
 .item {
-    background-color: purple;
+    background-color: white;
     padding: 15px;
     margin-bottom: 15px;
     border: transparent;
